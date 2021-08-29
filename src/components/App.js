@@ -56,7 +56,7 @@ function App() {
     const href = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = href;
-    link.download = "standards" + ".json";
+    link.download = 'standards.json';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
