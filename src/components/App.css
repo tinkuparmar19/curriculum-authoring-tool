@@ -1,0 +1,93 @@
+.app {
+  max-width: 80%;
+  margin: 10%;
+}
+
+h2 {
+  color: #aaaaaa;
+  font-size: 20px;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.container-constant {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.container-constant p {
+  color: #aaaaaa;
+}
+
+.container-left-first {
+  width: 30%;
+}
+
+.container-left {
+  width: 30%;
+  line-height: 30px;
+}
+
+.container-left i {
+  color: #aaaaaa;
+  font-size: 14px;
+  margin: 3px 5px;
+  cursor: pointer;
+}
+
+.container-right-first {
+  width: 70%;
+}
+
+.container-right {
+  width: 70%;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.container-right input {
+  outline: none;
+  border: none;
+  width: 100%;
+  font-size: 14px;
+}
+
+.add-button {
+  width: 100%;
+  background-color: rgb(44, 150, 199);
+  margin-top: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  padding: 8px 0;
+  border-radius: 4px;
+}
+
+.down-up-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.download {
+  width: 45%;
+  margin: 0 5px;
+  background-color: rgb(28, 206, 58);
+  margin-top: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  padding: 8px 0;
+  border-radius: 4px;
+}
+
+.normal {
+  color: rgb(44, 150, 199);
+  padding-left: 0px;
+}
+
+.indent-right {
+  color: #000;
+  padding-left: 20px;
+}
